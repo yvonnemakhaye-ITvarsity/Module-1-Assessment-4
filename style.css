@@ -1,0 +1,26 @@
+h1{
+    color: cadetblue;
+    font-family: sans-serif;
+}
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2434A2;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5)
+}
+th{
+    font-weight: 800;
+    color: white;
+    background-color: #2434A2    
+}
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+tr:nth-child(odd):hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
